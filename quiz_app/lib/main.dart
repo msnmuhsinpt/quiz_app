@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/ui/home/screen/home_screen.dart';
+import 'package:quiz_app/util/app_rout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      initialRoute: '/counter',
+      onGenerateRoute: onGenerateRoute,
     );
   }
 }
