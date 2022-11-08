@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../util/app_color.dart';
+import '../../../util/app_color.dart';
+
 
 Widget appTextView(
     {String name = "",

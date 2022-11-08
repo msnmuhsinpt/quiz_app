@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+//image
+String icClock = "assets/images/ic_clock.png";
+
 //animation
 String icVictory = "assets/lottie/victory.json";
-
 
 //padding
 EdgeInsets commonPaddingAll = const EdgeInsets.all(10);
@@ -21,7 +23,6 @@ double screenWidth(context) {
 double screenHeight(context) {
   return MediaQuery.of(context).size.height;
 }
-
 
 //divider
 
