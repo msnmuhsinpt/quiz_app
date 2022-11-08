@@ -27,6 +27,7 @@ class OptionWidget extends StatelessWidget {
   Widget buildOption(Option option) {
     final color = getColorForOption(option, question);
     return GestureDetector(
+      //click event
       onTap: () => onClickOption(option),
       child: Container(
         height: 50,

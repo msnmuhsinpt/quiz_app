@@ -48,23 +48,7 @@ class _CounterScreenState extends State<CounterScreen> {
       ),
     );
   }
-
-  // the timer
-  /* void counter() async {
-
-    timer1 = Timer.periodic(const Duration(seconds: 4), (_) {
-      setState(() {
-        _seconds--;
-      });
-      if (_seconds < 1) {
-        Future.delayed(Duration(milliseconds: 5000), () {
-          // Your code
-          log("hrtrt" + _seconds.toString());
-          Navigator.pushNamedAndRemoveUntil(context, '/quiz', (route) => false);
-        });
-      }
-    });
-  }*/
+  //timer
   void counter() {
     timer = Timer.periodic(const Duration(seconds: 8), (_) {
       Navigator.pushNamedAndRemoveUntil(context, '/quiz', (route) => false);

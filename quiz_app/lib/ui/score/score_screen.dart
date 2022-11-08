@@ -50,6 +50,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
                         backgroundColor: AppColor.kBlue),
                     onPressed: () {
                       setState(() {
+                        //clear selected data
                         for (int i = 0; i < questions.length; i++) {
                           questions[i].isLocked = false;
                         }
@@ -74,7 +75,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
       ),
     );
   }
-
+  //animation
   Widget victoryAnimation() {
     return Lottie.asset(icVictory,
         width: screenWidth(context) - 20, height: 300, repeat: true);

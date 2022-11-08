@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
+
 import '../../../util/app_color.dart';
 import '../../common/widgets/app_text_view.dart';
 
